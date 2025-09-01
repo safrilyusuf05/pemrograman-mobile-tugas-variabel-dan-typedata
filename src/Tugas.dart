@@ -4,6 +4,7 @@ void main() {
   stdout.write("Nama karyawan: ");
   String nama = stdin.readLineSync()!;
 
+  
   stdout.write("Jumlah Jam Kerja: ");
   int jamKerja = int.parse(stdin.readLineSync()!);
 
